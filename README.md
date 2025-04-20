@@ -54,6 +54,39 @@ Silicore Client turns your Windows computer into a secure, silent and remotely c
 
 All command results are written back to the same document under appropriate fields.    
 
+## 📜 Logs (Terminal Output)
+
+> Here’s a real-time snapshot of how the Silicore Client communicates with the Firebase backend and your mobile device:
+
+```text
+[2025-04-21 00:50:06.921626] Client created.
+[2025-04-21 00:50:06.922625] Client started...
+[2025-04-21 00:50:23.740688] Status: waiting - Showing UI
+[2025-04-21 00:50:26.481918] Info updated.
+[2025-04-21 00:50:37.652443] Connected to phone
+[2025-04-21 00:50:40.361755] Info updated.
+[2025-04-21 00:50:51.565759] Connected to phone
+[2025-04-21 00:50:54.220721] Info updated.
+[2025-04-21 00:50:56.959818] Screenshot uploaded as base64.
+[2025-04-21 00:51:08.304901] Connected to phone
+[2025-04-21 00:51:10.928694] Info updated.
+[2025-04-21 00:51:13.744545] Tasklist uploaded.
+[2025-04-21 00:51:25.280967] Connected to phone
+[2025-04-21 00:51:27.950655] Info updated.
+[2025-04-21 00:51:29.359383] Shutdown command executed.
+[2025-04-21 00:51:40.893069] Status: disconnected - Showing UI
+[2025-04-21 00:51:43.597986] Info updated.
+```
+This terminal log shows the entire communication lifecycle:
+
+- ✅ Client launch
+- ✅ Status updates
+- 📡 Phone connection status
+- 🖼️ Screenshot sent as base64
+- 🧠 Task manager data uploaded
+- 🛑 Shutdown triggered remotely
+- 🔄 Status returned to disconnected
+
 ## 📦 Requirements
 
 -   Python 3.8+
