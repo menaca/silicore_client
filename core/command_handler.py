@@ -1,5 +1,6 @@
 import base64
 import pyautogui
+import os
 from io import BytesIO
 from datetime import datetime
 from .task_manager import update_tasklist, kill_process
@@ -36,7 +37,7 @@ def handle_command(doc, client_id):
 
     elif command == "shutdown":
         try:
-            #os.system("shutdown /s /t 5")
+            os.system("shutdown /s /t 5")
             print(f"[{datetime.now()}] Shutdown command executed.")
         except Exception as e:
             print(f"[{datetime.now()}] Shutdown error: {e}")
