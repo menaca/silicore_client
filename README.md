@@ -95,8 +95,8 @@ silicore_client/
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/silicore-client.git
-cd silicore-client
+git clone https://github.com/menaca/silicore_client.git
+cd silicore_client
 ```
 
 Install Python Packages:
