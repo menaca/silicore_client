@@ -1,3 +1,6 @@
+
+![Logo Here](https://github.com/user-attachments/assets/ee4d3343-ecb4-4279-a474-31159c18655d)
+
 # 🖥️ Silicore Client
 Turn any PC into a remotely controlled smart device.
 
@@ -159,4 +162,8 @@ The Flutter-based Silicore Mobile App allows you to:
 > Do you want to control your computer from your phone and get instant information? Silicore is for you
 
 Check out all my projects [menapps](https://www.instagram.com/menapps).
+
+![Logo Here (1)](https://github.com/user-attachments/assets/c0a64a2e-fd80-4cd5-bc28-aa318c14943c)
+
+
     
