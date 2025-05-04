@@ -163,6 +163,9 @@ The Flutter-based Silicore Mobile App allows you to:
 
 Check out all my projects [menapps](https://www.instagram.com/menapps).
 
+"We understand the importance of eliminating the dependency on the `serviceAccountKey.json` file. In the upcoming update, we will remove this dependency and expand the control capabilities of your computer, enabling more functionalities at various points."
+
+
 ![Logo Here (1)](https://github.com/user-attachments/assets/c0a64a2e-fd80-4cd5-bc28-aa318c14943c)
 
 
